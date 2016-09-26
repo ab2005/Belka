@@ -3,7 +3,7 @@ Conquering Space.
 
 [![Belka and Strelka](http://sovieteramuseum.com/wp-content/uploads/2012/08/belka-strelka-2.jpg)](https://www.youtube.com/watch?v=u4SUH9qITxE "Белка и Стрелка")
 
-A raw camera sensor data processing pipeline
+A camera sensor raw image processing pipeline
 =============================================
 
 This is a C++/OpenCL implementation of a complete image processing pipeline including:
