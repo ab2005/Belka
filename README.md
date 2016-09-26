@@ -49,8 +49,6 @@ Chewbacca
 
 [![Chewbacca](https://habrastorage.org/files/02c/84c/41a/02c84c41a7c945438085ecbdc2945aa9.jpg "В фильме «Марс» с космонавтами на планету высаживается и отважный пес, в честь которого свое имя получил Чубака – это транскрипция русского слова «собака». ")](https://youtu.be/-4hssVGcoLs?t=44m17s)
 
-В фильме «Марс» с космонавтами на планету высаживается и отважный пес, в честь которого свое имя получил Чубака – это транскрипция русского слова «собака». 
+R2-D2
 
-Android
-
-[![Android](https://habrastorage.org/files/985/14e/3b4/98514e3b43ec48249faf6d50ab6c5aec.jpg "Android grandfather")](https://youtu.be/9gTs1OL1jrQ?t=30m47s)
+[![Android](https://habrastorage.org/files/985/14e/3b4/98514e3b43ec48249faf6d50ab6c5aec.jpg " The Android Grandfather")](https://youtu.be/9gTs1OL1jrQ?t=30m47s)
