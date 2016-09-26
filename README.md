@@ -1,10 +1,8 @@
 # strelka
 Conquering Space.
 
-[![стрелка](http://sovieteramuseum.com/wp-content/uploads/2012/08/belka-strelka-2.jpg")](https://www.youtube.com/watch?v=u4SUH9qITxE
-)
+[![Belka and Strelka](http://sovieteramuseum.com/wp-content/uploads/2012/08/belka-strelka-2.jpg)](https://www.youtube.com/watch?v=u4SUH9qITxE "Белка и Стрелка")
 
-https://www.youtube.com/watch?v=u4SUH9qITxE
 Raw image processing pipeline
 =============================
 
