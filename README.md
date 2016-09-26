@@ -1,12 +1,12 @@
-# strelka
-Conquering Space.
-
+# Belka and Strelka
 [![Belka and Strelka](http://sovieteramuseum.com/wp-content/uploads/2012/08/belka-strelka-2.jpg)](https://www.youtube.com/watch?v=u4SUH9qITxE "Белка и Стрелка")
+
+They were instrumental in the future of human space fligh
 
 A camera sensor raw image processing pipeline
 =============================================
 
-This is a C++/OpenCL implementation of a complete image processing pipeline including:
+This project is a C++/OpenCL implementation of a complete image processing pipeline including:
 - color depth adjuctment
 - black balance
 - histogram equalization
