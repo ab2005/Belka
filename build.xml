@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Rccb" default="help">
+    <property file="local.properties" />
+    <property file="ant.properties" />
+    <property environment="env" />
+    <condition property="sdk.dir" value="${env.ANDROID_HOME}">
+        <isset property="env.ANDROID_HOME" />
+    </condition>
+    <loadproperties srcFile="project.properties" />
+    <!-- quick check on sdk.dir -->
+    <fail
+            message="sdk.dir is missing. Make sure to generate local.properties using 'android update project' or to inject it through the ANDROID_HOME environment variable."
+            unless="sdk.dir"
+    />
+    <import file="custom_rules.xml" optional="true" />
+    <!-- version-tag: 1 -->
+    <import file="${sdk.dir}/tools/ant/build.xml" />
+    <target name="clean">
+        <exec executable="ndk-build" failonerror="true">
+            <arg value="clean" />
+        </exec>
+    </target>
+    <target name="jni">
+        <exec executable="ndk-build" failonerror="true">
+            <arg value="NDK_DEBUG=0" />
+            <arg value="V=0" />
+        </exec>
+    </target>
+    <target name="jni-mali">
+        <exec executable="ndk-build" failonerror="true">
+            <arg value="PLATFORM=nexus10" />
+            <arg value="NDK_DEBUG=0" />
+            <arg value="V=0" />
+        </exec>
+    </target>
+    <target name="push">
+        <exec executable="adb" failonerror="true">
+            <arg value="push" />
+            <arg value="test" />
+            <arg value="/sdcard/rccb" />
+        </exec>
+        <exec executable="adb" failonerror="true">
+            <arg value="push" />
+            <arg value="kernels" />
+            <arg value="/sdcard/rccb" />
+        </exec>
+        </target>
+    <target name="run">
+        <exec executable="adb">
+            <arg value="shell" />
+            <arg value="am start -a android.intent.action.MAIN -n${app.pkg}/${app.main}" />
+        </exec>
+    </target>    
+    
+    
+</project>
