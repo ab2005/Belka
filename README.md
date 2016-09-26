@@ -22,11 +22,11 @@ OpenCL kernels are in the `kernels` folder. Qualcomm OpenCl library is in filder
 
 OpenCL on Android
 -----------------
-- [] Set `ANDROID_NDK` to the NDK location on your computer: `export ANDROID_NDK=~/<project>/android-ndk-r9`
-- [] Set `ANDROID_HOME` to the SDK location: `export ANDROID_HOME=~/<project>/adt-bundle-linux-x86_64-20130917/sdk`
-- [] Change `AndroidManifest.xml` to target the SDK you have, such as: `android:targetSdkVersion="18"`
-- [] Change `project.properties`  accordingly: `target=android-18`
-- [] *Do not* use `android update project --name Rccb --path . --target 1` because it kills some existing targets of the project in `build.xml`.
+ - [ ] Set `ANDROID_NDK` to the NDK location on your computer: `export ANDROID_NDK=~/<project>/android-ndk-r9`
+ - [ ] Set `ANDROID_HOME` to the SDK location: `export ANDROID_HOME=~/<project>/adt-bundle-linux-x86_64-20130917/sdk`
+ - [ ] Change `AndroidManifest.xml` to target the SDK you have, such as: `android:targetSdkVersion="18"`
+ - [ ] Change `project.properties`  accordingly: `target=android-18`
+ - [ ] *Do not* use `android update project --name Rccb --path . --target 1` because it kills some existing targets of the project in `build.xml`.
 
 Buiding and deploying
 ---------------------
