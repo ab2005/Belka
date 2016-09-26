@@ -3,66 +3,36 @@ Conquering Space.
 
 [![Belka and Strelka](http://sovieteramuseum.com/wp-content/uploads/2012/08/belka-strelka-2.jpg)](https://www.youtube.com/watch?v=u4SUH9qITxE "Белка и Стрелка")
 
-Raw image processing pipeline
-=============================
+A camera sensor raw image processing pipeline
+=============================================
 
-Reference pipeline refactored:
-* code checked against C++ compiler on desktop and Android
-* converted C objects like images to C++
-* code cleanup
+A C++/OpenCL image processing pipeline including:
+- color depth adjuctment
+- black balance
+- histogram equalization
+- temporal denoising
+- demosaic
+- color correction
+- point filter
+- gamma encoding
+- yvu conversion
 
-Only supports RAW input and BMP output.
+Code checked against GNU C++ compiler on desktop and Android toolchain. Test harnes supports only RAW input and BMP output.
 
 OpenCL on Android
 -----------------
 
-OpenCL kernels are located in the `kernels` folder.
+OpenCL kernels are in the `kernels` folder. Qualcomm OpenCl library is in: `libs`.
 
-Make `ANDROID_NDK` to point to where the NDK is on your computer, for example:
+- [] Set `ANDROID_NDK` to the NDK location on your computer: `export ANDROID_NDK=~/<project>/android-ndk-r9`
+- [] Set `ANDROID_HOME` to the SDK location: `export ANDROID_HOME=~/<project>/adt-bundle-linux-x86_64-20130917/sdk`
+- [] Change `AndroidManifest.xml` to target the SDK you have, such as: `android:targetSdkVersion="18"`
+- [] Change `project.properties`  accordingly: `target=android-18`
 
-`export ANDROID_NDK=~/<project>/android-ndk-r9`
+Do not use `android update project --name Rccb --path . --target 1` because it kills some existing targets of the project in `build.xml`.
 
-and `ANDROID_HOME` to point to where the SDK is, for example with:
-
-`export ANDROID_HOME=~/<project>/adt-bundle-linux-x86_64-20130917/sdk`
-
-Change `AndroidManifest.xml` to target the SDK you have, such as:
-
-`android:targetSdkVersion="18"`
-
-and adapt `project.properties` for example to:
-
-`target=android-18`
-
-You *cannot* use this
-
-`android update project --name Rccb --path . --target 1`
-
-because it kills some existing targets of the project inside `build.xml`.
-
-You can clean the current compilation with
-
-`ndk-build clean`
-
-or
-
-`ant clean`
-
-To build the native part you can use
-
-`ndk-build`
-
-or use `ant jni`, as stated later
-
-Install the native part of the application:
-
-`make adb-install`
-
-For compiling the Android app, installing the files needed to run the
-native application and run the app do:
-
-`ant jni debug install run`
-
-To run the OpenCL code on the platform and get the image back:
-
-`make adb-run`
+* To clean: `ndk-build clean` or `ant clean`
+* To build the JNI: `ndk-build` or use `ant jni`.
+* To install the native part of the application:`make adb-install`
+* To do everythig at once: `ant jni debug install run`
+* To run the OpenCL code on the platform and get the image back:`make adb-run`
