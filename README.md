@@ -51,3 +51,6 @@ Chewbacca
 
 В фильме «Марс» с космонавтами на планету высаживается и отважный пес, в честь которого свое имя получил Чубака – это транскрипция русского слова «собака». 
 
+Android
+
+[![Android](https://habrastorage.org/files/985/14e/3b4/98514e3b43ec48249faf6d50ab6c5aec.jpg "Android grandfather")](https://youtu.be/9gTs1OL1jrQ?t=30m47s)
