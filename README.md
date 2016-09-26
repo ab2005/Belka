@@ -6,12 +6,12 @@ Conquering Space.
 A raw camera sensor data processing pipeline
 =============================================
 
-This is C++/OpenCL implementation of a complete image processing pipeline which includes:
+This is a C++/OpenCL implementation of a complete image processing pipeline including:
 - color depth adjuctment
 - black balance
 - histogram equalization
 - temporal denoising
-- demosaic
+- [debayering / demosaicing](https://en.wikipedia.org/wiki/Demosaicing)
 - color correction
 - point filter
 - gamma encoding
