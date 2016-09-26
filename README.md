@@ -3,10 +3,10 @@ Conquering Space.
 
 [![Belka and Strelka](http://sovieteramuseum.com/wp-content/uploads/2012/08/belka-strelka-2.jpg)](https://www.youtube.com/watch?v=u4SUH9qITxE "Белка и Стрелка")
 
-A camera sensor raw image processing pipeline
+A raw camera sensor data processing pipeline
 =============================================
 
-A complete C++/OpenCL image processing pipeline that includes:
+This is C++/OpenCL implementation of a complete image processing pipeline which includes:
 - color depth adjuctment
 - black balance
 - histogram equalization
@@ -35,3 +35,10 @@ Buiding and deploying
 * To install the native part of the application:`make adb-install`
 * To do everythig at once: `ant jni debug install run`
 * To run the OpenCL code on the platform and get the image back:`make adb-run`
+
+Benchmarks
+-----------
+```
+MacbookPro : 1080p 12bits : 5.3ms / frame
+           : 4K    12bits : 24.4ms / frame 
+```           
