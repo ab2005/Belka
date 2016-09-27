@@ -49,8 +49,8 @@ Benchmarks
 MacbookPro : 1080p 12bits : 5.3ms / frame
            : 4K    12bits : 24.4ms / frame 
 ```      
-![Original](bechmarks/screen.png) ![Denoised](bechmarks/denoised_screen.png)
-![Original](bechmarks/label.png) ![Denoised](bechmarks/denoised_label.png)
+[![Original](benchmarks/screen.png)] [![Denoised](benchmarks/denoised_screen.png)]
+[![Original](benchmarks/label.png)] [![Denoised](benchmarks/denoised_label.png)]
 
 Links
 -----
