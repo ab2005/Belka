@@ -49,7 +49,9 @@ Benchmarks
 MacbookPro : 1080p 12bits : 5.3ms / frame
            : 4K    12bits : 24.4ms / frame 
 ```      
-![Denoised](bechmarks/"Screen Shot 2016-09-26 at 6.22.20 PM".png)
+![Original](bechmarks/screen.png) ![Denoised](bechmarks/denoised_screen.png)
+![Original](bechmarks/label.png) ![Denoised](bechmarks/denoised_label.png)
+
 Links
 -----
 #### Chewbacca
