@@ -6,10 +6,9 @@ A camera sensor raw image processing pipeline
 =============================================
 
 This project is a C++/OpenCL implementation of a complete image processing pipeline including:
-- color depth adjuctment
-- black balance
-- histogram equalization
-- temporal denoising
+- color depth adjustment
+- awb balance
+- denoising
 - [debayering / demosaicing](https://en.wikipedia.org/wiki/Demosaicing)
 - color correction
 - point filter
