@@ -1,3 +1,4 @@
+
 [![Belka and Strelka](http://sovieteramuseum.com/wp-content/uploads/2012/08/belka-strelka-2.jpg)](https://www.youtube.com/watch?v=u4SUH9qITxE "Белка и Стрелка")
 
 Animal heroes. They were instrumental in the future of human space fligh.
@@ -13,7 +14,7 @@ This project is a C++/OpenCL implementation of a complete image processing pipel
 - color correction
 - point filter
 - gamma encoding
-- yvu conversion
+- yuv conversion
 
 Code checked against GNU C++ compiler on desktop and Android toolchain. Test harnes supports only RAW input and BMP output.
 OpenCL kernels are in the `kernels` folder. Qualcomm OpenCl library is in filder: `libs`.
@@ -58,3 +59,5 @@ Links
 
 #### R2-D2
 [![Android](https://habrastorage.org/files/985/14e/3b4/98514e3b43ec48249faf6d50ab6c5aec.jpg " The Android Grandfather")](https://youtu.be/9gTs1OL1jrQ?t=30m47s)
+
+
