@@ -1,5 +1,5 @@
 
-Belka - A Camera Raw Image Processing Pipeline
+Belka: A Camera Raw Image Processing Pipeline
 ====================================
 
 This project is a C++/OpenCL implementation of the camera ISP:
@@ -50,8 +50,10 @@ MacbookPro : 1920x1080 12bits : 5.3ms / frame
            : 4016x3016 12bits : 24.4ms / frame 
 ```      
 
-[![Original](benchmarks/screen.png)] [![Denoised](benchmarks/denoised_screen.png)]
-[![Original](benchmarks/label.png)] [![Denoised](benchmarks/denoised_label.png)]
+[![Original](benchmarks/screen.png)]() 
+[![Denoised](benchmarks/denoised_screen.png)]()
+[![Original](benchmarks/label.png)]() 
+[![Denoised](benchmarks/denoised_label.png)]()
 
 Links
 -----
