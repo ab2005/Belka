@@ -1,23 +1,19 @@
 
-[![Belka and Strelka](http://sovieteramuseum.com/wp-content/uploads/2012/08/belka-strelka-2.jpg)](https://www.youtube.com/watch?v=u4SUH9qITxE "Белка и Стрелка")
+Camera raw image processing pipeline
+====================================
 
-Animal heroes. They were instrumental in the future of human space fligh.
-
-A camera sensor raw image processing pipeline
-=============================================
-
-This project is a C++/OpenCL implementation of a complete image processing pipeline including:
-- color depth adjustment
-- awb balance
-- denoising
-- [debayering / demosaicing](https://en.wikipedia.org/wiki/Demosaicing)
-- color correction
+This project is a C++/OpenCL implementation of the camera ISP:
+- black level adjust
+- white balancing
+- noise reduction
+- green balancing
+- [demosaicing](https://en.wikipedia.org/wiki/Demosaicing)
+- color correction matrix
 - point filter
 - gamma encoding
 - yuv conversion
 
-Code checked against GNU C++ compiler on desktop and Android toolchain. Test harnes supports only RAW input and BMP output.
-OpenCL kernels are in the `kernels` folder. Qualcomm OpenCl library is in filder: `libs`.
+The code is checked against GNU C++ compiler on desktop and Android toolchain. The test harnes supports only RAW input and BMP output. The OpenCL kernels are in the `kernels` folder. Qualcomm OpenCl library is in filder: `libs`.
 
 Run on MacOSX
 ------------
@@ -46,14 +42,19 @@ Run on Android
 Benchmarks
 -----------
 ```
-MacbookPro : 1080p 12bits : 5.3ms / frame
-           : 4K    12bits : 24.4ms / frame 
+MacbookPro : 1920x1080 12bits : 5.3ms / frame
+           : 4016x3016 12bits : 24.4ms / frame 
 ```      
+
 [![Original](benchmarks/screen.png)] [![Denoised](benchmarks/denoised_screen.png)]
 [![Original](benchmarks/label.png)] [![Denoised](benchmarks/denoised_label.png)]
 
 Links
 -----
+#### Belka and Strelka
+[![Belka and Strelka](http://sovieteramuseum.com/wp-content/uploads/2012/08/belka-strelka-2.jpg)](https://www.youtube.com/watch?v=u4SUH9qITxE "Белка и Стрелка")
+*Animal heroes. They were instrumental in the future of human space fligh.*
+
 #### Chewbacca
 [![Chewbacca](https://habrastorage.org/files/02c/84c/41a/02c84c41a7c945438085ecbdc2945aa9.jpg "В фильме «Марс» с космонавтами на планету высаживается и отважный пес, в честь которого свое имя получил Чубака – это транскрипция русского слова «собака». ")](https://youtu.be/-4hssVGcoLs?t=44m17s)
 
