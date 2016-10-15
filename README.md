@@ -1,5 +1,5 @@
 
-Camera raw image processing pipeline
+Camera sensor raw image processing pipeline
 ====================================
 
 This project is a C++/OpenCL implementation of the camera ISP:
@@ -17,11 +17,14 @@ The code is checked against GNU C++ compiler on desktop and Android toolchain. T
 
 Run on MacOSX
 ------------
-- Download test files (~1GB): 
-    1.3 sec(400 frames) of low light raw RCCB sensor video: 4016x3016, 12bit 
+- Download raw data files (~1GB): 
+```
+    1.3 sec (404 frames 1920x1080, 12bit) of raw RCCB sensor video taken at low light conditions  
     https://www.dropbox.com/s/jb9ufk2ybkya5po/test1.zip?dl=0
-- unzip to the project directory, it will create `test1` folder 
-- `make testv` 
+```    
+- unzip to the project directory (will create `test1` folder) 
+- `make tv` 
+- to control noise reduction use `[cmd]+` and `[cmd]-` 
 
 Run on Android
 --------------
