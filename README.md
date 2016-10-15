@@ -17,7 +17,7 @@ The code is checked against GNU C++ compiler on desktop and Android toolchain. T
 
 Run on MacOSX
 ------------
-- Download [raw data files (~1GB)](https://www.dropbox.com/s/jb9ufk2ybkya5po/test1.zip?dl=0):  
+- Download [raw data file](https://www.dropbox.com/s/jb9ufk2ybkya5po/test1.zip?dl=0) (~1GB):  
 ```
     1.3 sec (404 frames 1920x1080, 12bit) of raw RCCB sensor video taken at low light conditions  
 ``` 
