@@ -20,7 +20,7 @@ Run on MacOSX
 ------------
 - Download [raw data](https://www.dropbox.com/s/jb9ufk2ybkya5po/test1.zip?dl=0) (~1GB):  
 ```
-    1.3 sec (404 frames 1920x1080, 12bit) of raw RCCB sensor video taken at low light conditions  
+    13.4 sec (404 frames) of raw RCCB sensor 1920x1080, 12bit video taken in the lab at low light conditions  
 ``` 
 - unzip to the project directory (will create `test1` folder) 
 - `make tv` 
