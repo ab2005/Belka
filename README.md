@@ -13,11 +13,13 @@ This project is a C++/OpenCL implementation of the camera ISP:
 - gamma encoding
 - yuv conversion
 
-The code is checked against GNU C++ compiler on desktop and Android toolchain. The test harnes supports only RAW input and BMP output. The OpenCL kernels are in the `kernels` folder. Qualcomm OpenCl library is in filder: `libs`.
+The code is checked against GNU C++ compiler on desktop and Android toolchain. The test harnes supports only RAW input and BMP output. The OpenCL kernels are in the `kernels` folder. Qualcomm OpenCl library (Linux/Android) is in folder: `libs`.
 
 Run on MacOSX
 ------------
-- Download test files: https://www.dropbox.com/s/jb9ufk2ybkya5po/test1.zip?dl=0
+- Download test files (~1GB): 
+    1.3 sec(400 frames) of low light raw RCCB sensor video: 4016x3016, 12bit 
+    https://www.dropbox.com/s/jb9ufk2ybkya5po/test1.zip?dl=0
 - unzip to the project directory, it will create `test1` folder 
 - `make testv` 
 
