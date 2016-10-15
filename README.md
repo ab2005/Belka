@@ -74,6 +74,6 @@ Chewbacca is a transcription of the Russian word Собака (Dog).
 #### R2-D2
 [![Android](https://habrastorage.org/files/985/14e/3b4/98514e3b43ec48249faf6d50ab6c5aec.jpg " The Android Grandfather")](https://youtu.be/9gTs1OL1jrQ?t=30m47s)
 
-The grand father of Android.
+The Grand Father of Android.
 
 
