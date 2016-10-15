@@ -1,5 +1,5 @@
 
-Belka: A Camera Raw Image Processing Pipeline
+Belka: A Camera Raw Image Processing Pipeline for Mobile
 ====================================
 
 This project is a C++/OpenCL implementation of the camera ISP:
