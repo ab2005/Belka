@@ -1,5 +1,5 @@
 
-Camera sensor raw image processing pipeline
+Belka - A Camera Raw Image Processing Pipeline
 ====================================
 
 This project is a C++/OpenCL implementation of the camera ISP:
@@ -20,8 +20,8 @@ Run on MacOSX
 - Download raw data files (~1GB): 
 ```
     1.3 sec (404 frames 1920x1080, 12bit) of raw RCCB sensor video taken at low light conditions  
-    https://www.dropbox.com/s/jb9ufk2ybkya5po/test1.zip?dl=0
-```    
+``` 
+https://www.dropbox.com/s/jb9ufk2ybkya5po/test1.zip?dl=0   
 - unzip to the project directory (will create `test1` folder) 
 - `make tv` 
 - to control noise reduction use `[cmd]+` and `[cmd]-` 
