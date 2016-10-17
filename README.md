@@ -19,13 +19,13 @@ The code is checked against GNU C++ compiler on desktop and Android toolchain. T
 
 Run on MacOSX
 ------------
-- Download [raw data](https://www.dropbox.com/s/jb9ufk2ybkya5po/test1.zip?dl=0) (~1GB):  
+- Download [raw data](https://drive.google.com/file/d/0B35hwJjfAV_OTS1rR2N2UVFES0E/view?usp=sharing) (~1GB):  
 ```
-    13.4 sec (404 frames) of raw RCCB sensor 1920x1080, 12bit video taken in the lab at low light conditions  
+    13.4 sec (404 frames) 1920x1080, 10bit, RCCB sensor  
 ``` 
-- unzip to the project directory (will create `test1` folder) 
-- `make tv` 
-- to control noise reduction use `[cmd]+` and `[cmd]-` 
+- unzip 
+- run `./run.sh` or run with controls `./controls.sh`  
+- to apply noise reduction use `[cmd]+` and `[cmd]-` 
 
 Run on Android
 --------------
