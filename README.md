@@ -1,22 +1,20 @@
-
-Belka: A Camera Raw Image Processing Pipeline for Mobile
-========================================================
+Fast Camera Raw Image Processing Pipeline for Mobile
+====================================================
 
 This project is a C++/OpenCL implementation of high-performance camera ISP:
-- bad pixels remove
+- bad pixels
 - black level adjust
+- green balancing
 - white balancing
 - noise reduction
-- green balancing
-- [demosaicing](https://en.wikipedia.org/wiki/Demosaicing)
+- demosaicing
 - color correction matrix
-- point filter
 - gamma encoding
 - yuv conversion
 
 The code is checked against GNU C++ compiler on desktop and Android toolchain. The test harnes supports only RAW input and BMP output. The OpenCL kernels are in the `kernels` folder. Qualcomm OpenCl library (Linux/Android) is in folder: `libs`.
 
-The pipeline thouput is ~0.4 Gpix/sec (200fps of 1920x1080 / 37fps of 4016x3016)
+The pipeline performs at ~0.4 Gpix/sec (200fps of 1920x1080 / 37fps of 4016x3016)
 
 Run on MacOSX
 ------------
@@ -27,7 +25,6 @@ Run on MacOSX
 
 Run on Android
 --------------
-
 #### OpenCL on Android
  - [ ] Set `ANDROID_NDK` to the NDK location on your computer: `export ANDROID_NDK=~/<project>/android-ndk-r9`
  - [ ] Set `ANDROID_HOME` to the SDK location: `export ANDROID_HOME=~/<project>/adt-bundle-linux-x86_64-20130917/sdk`
