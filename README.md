@@ -20,7 +20,7 @@ The pipeline thouput is ~0.4 Gpix/sec (200fps of 1920x1080 / 37fps of 4016x3016)
 
 Run on MacOSX
 ------------
-- Download [test1](https://drive.google.com/file/d/0B35hwJjfAV_OTS1rR2N2UVFES0E/view?usp=sharing) (~1GB): 13.4 sec (404 frames) 1920x1080, 10bit, RCCB sensor  or [test2](https://drive.google.com/file/d/0B35hwJjfAV_OSXRnWERwbDFKbk0/view?usp=sharing) (~138MB): ~0.3 sec (10 frames) 4016X3016, 12bit, RCCB sensor
+- Download [test1](https://drive.google.com/file/d/0B35hwJjfAV_OTS1rR2N2UVFES0E/view?usp=sharing) (~1GB): `13.4 sec (404 frames) 1920x1080, 10bit, RCCB sensor`  or [test2](https://drive.google.com/file/d/0B35hwJjfAV_OSXRnWERwbDFKbk0/view?usp=sharing) (~138MB): `~0.3 sec (10 frames) 4016X3016, 12bit, RCCB sensor`
 - unzip 
 - run `./run.sh` or run with controls `./controls.sh`  
 - to apply noise reduction use `[cmd]+` and `[cmd]-` 
