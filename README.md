@@ -2,7 +2,7 @@
 Belka: A Camera Raw Image Processing Pipeline for Mobile
 ====================================
 
-This project is a C++/OpenCL implementation of the camera ISP performing at ~0.4 Gpix/sec (200fps 1080p):
+This project is a C++/OpenCL implementation of the camera ISP performing at ~0.4 Gpix/sec (200fps-1920x1080 / 37fps-4016x3016  ):
 - bad pixels remove
 - black level adjust
 - white balancing
@@ -19,7 +19,7 @@ The code is checked against GNU C++ compiler on desktop and Android toolchain. T
 
 Run on MacOSX
 ------------
-- Download [raw data](https://drive.google.com/file/d/0B35hwJjfAV_OTS1rR2N2UVFES0E/view?usp=sharing) (~1GB): 13.4 sec (404 frames) 1920x1080, 10bit, RCCB sensor   
+- Download [test1](https://drive.google.com/file/d/0B35hwJjfAV_OTS1rR2N2UVFES0E/view?usp=sharing) (~1GB): 13.4 sec (404 frames) 1920x1080, 10bit, RCCB sensor  or [test2](https://drive.google.com/file/d/0B35hwJjfAV_OSXRnWERwbDFKbk0/view?usp=sharing) (~138MB): ~0.3 sec (10 frames) 4016X3016, 12bit, RCCB sensor
 - unzip 
 - run `./run.sh` or run with controls `./controls.sh`  
 - to apply noise reduction use `[cmd]+` and `[cmd]-` 
