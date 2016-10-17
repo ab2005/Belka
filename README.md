@@ -49,10 +49,10 @@ MacbookPro : 1920x1080 12bits : 5.3ms / frame
 
 Noise reduction
 -----------
-[![Original](benchmarks/screen.png)]() 
-[![Denoised](benchmarks/denoised_screen.png)]()
-[![Original](benchmarks/label.png)]() 
-[![Denoised](benchmarks/denoised_label.png)]()
+[![Original](benchmarks/screen.png)](benchmarks/screen.png) 
+[![Denoised](benchmarks/denoised_screen.png)](benchmarks/denoised_screen.png)
+[![Original](benchmarks/label.png)](benchmarks/label.png) 
+[![Denoised](benchmarks/denoised_label.png)](benchmarks/denoised_label.png)
 
 Links
 -----
