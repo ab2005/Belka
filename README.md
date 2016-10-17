@@ -19,10 +19,7 @@ The code is checked against GNU C++ compiler on desktop and Android toolchain. T
 
 Run on MacOSX
 ------------
-- Download [raw data](https://drive.google.com/file/d/0B35hwJjfAV_OTS1rR2N2UVFES0E/view?usp=sharing) (~1GB):  
-```
-    13.4 sec (404 frames) 1920x1080, 10bit, RCCB sensor  
-``` 
+- Download [raw data](https://drive.google.com/file/d/0B35hwJjfAV_OTS1rR2N2UVFES0E/view?usp=sharing) (~1GB): 13.4 sec (404 frames) 1920x1080, 10bit, RCCB sensor   
 - unzip 
 - run `./run.sh` or run with controls `./controls.sh`  
 - to apply noise reduction use `[cmd]+` and `[cmd]-` 
